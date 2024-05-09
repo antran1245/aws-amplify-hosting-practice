@@ -25,10 +25,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <meta property="og:image" content="<generated>" />
-        <meta property="og:image:type" content="<generated>" />
-      </head>
+      <Head>
+        <meta property="og:image" content="./opengraph-image.jpeg" />
+      </Head>
       <body className={inter.className}>{children}</body>
     </html>
   );
