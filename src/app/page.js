@@ -10,6 +10,9 @@ export default function Home() {
       <Sections>Name</Sections>
       <Sections>is</Sections>
       <Sections>An</Sections>
+      <Sections>
+        <img src={'/all_purpose_flour.jpeg'} alt="All Purpose Flour" />
+      </Sections>
     </main>
   );
 }
